@@ -1,0 +1,17 @@
+{
+  "name": "dbSprintChallenge",
+  "version": "1",
+  "main": "index.js",
+  "repository": "https://github.com/Techgawd/node-db-challenge.git",
+  "author": "Angela Williams",
+  "license": "MIT",
+  "scripts": {
+		"server": "nodemon index.js",
+		"start": "node index"
+	},
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "nodemon": "^2.0.3"
+  }
+}
